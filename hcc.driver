@@ -1,0 +1,24 @@
+#hillslope metrics
+
+write path: ./
+read path: ./
+
+read fname: seward2_hsp_elev
+write_fname: seward_hsp__Dsources_
+
+run_HFR_analysis: true
+
+write_hilltops: true
+
+CHeads_file: seward_hsp__Dsources.csv
+
+#Table 7
+minimum_basin_size_pixels: 17500
+maximum_basin_size_pixels: 1250000
+print_basin_raster: true
+find_complete_basins_in_window: false
+
+
+
+surface_fitting_radius: 14
+#default 30, had been 5. 

@@ -1,0 +1,41 @@
+##Table 2
+read fname: seward2_hsp_elev
+write fname: seward_hsp_
+
+##Table 3
+
+##Table 4
+print_area_threshold_channels: false
+print_wiener_channels: true
+print_pelletier_channels: true
+print_dreich_channels: true
+
+#Table 5
+#print_stream_order_raster: true
+print_sources_to_raster: true
+print_wiener_filtered_raster: true
+write_hillshade: true
+print_curvature_raster: true
+print_slope_raster: true
+
+#Table 6
+min_slope_for_fillL 0.001
+
+surface_fitting_radius: 14
+#default 30, had used 5. 
+
+threshold_contributing_pixels: 1000
+
+connected_components_threshold: 50 
+#default 100
+
+pruning_drainage_area: 100 
+#default 1000
+
+# Table 7
+print_dinf_drainage_area_raster: true
+print_QuinnMD_drainage_area_raster: true
+print_FreemanMD_drainage_area_raster: true
+print_MD_drainage_area_raster: true
+
+
